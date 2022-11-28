@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    border-style: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.hidden {
+    display: none;
+}
+
+.top-elements {
+    display: flex;
+    justify-content: space-between;
+    margin: 3.7em 3.3em 2.5em 2.4em;
+}
+
+.gallows {
+    width: 20em;
+    height: 24em;
+}
+
+.choose-word {
+    width: 12.5em;
+    height: 3.75em;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.25em;
+    background-color: #27AE60;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.word {
+    font-weight: bold;
+    font-size: 3.125em;
+}
+
+.bottom-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.keyboard {
+    width: 41.5em;
+    height: 5.7em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.key-letter {
+    font-weight: bold;
+    font-size: 1em;
+    width: 2.5em;
+    height: 2.5em;
+    color: #7AA7C7;
+    margin: 0.3em;
+    background-color: #E1ECF4;
+    border: 1px solid #39739D;
+    border-radius: 3px;
+    cursor:pointer;
+}
+
+.key-letter-pressed {
+    font-weight: bold;
+    font-size: 1em;
+    width: 2.5em;
+    height: 2.5em;
+    color: #798A9F;
+    margin: 0.3em;
+    background-color: #9FAAB5;
+    border: 1px solid #7AA7C7;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.guess {
+    display: flex;
+    width: 42em;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.guess-input {
+    width: 20em;
+    height: 2.5em;
+    font-size: 1.25em;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.guess-buttom {
+    width: 100px;
+    height: 40px;
+    background: #E1ECF4;
+    border: 1px solid #7AA7C7;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #3C76A1;
+    font-size: 1em;
+    cursor:pointer;
+}
+
+.lost {
+    color: #FF0000;
+}
+
+.won {
+    color: #27AE60;
+}
